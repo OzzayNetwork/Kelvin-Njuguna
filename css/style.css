@@ -1737,7 +1737,7 @@ content
         .art-banner .art-banner-overlay .art-banner-photo {
             width: 390px;
             position: absolute;
-            right: 30px;
+            right: 0px;
             bottom: 0;
         }
         /* ----- typing code ----- */
@@ -2765,6 +2765,15 @@ portfolio
         .art-banner .art-banner-overlay {
             background-image: linear-gradient(82deg, rgb(33 3 43 / 92%) 15%, rgb(6 24 51 / 66%) 50%, rgb(3 3 3 / 72%) 100%);
         }
+        
+        .mb-50 {
+            margin-bottom: 50px !important;
+        }
+        
+        .sub-heading-text {
+            font-weight: 500;
+            font-size: 30px;
+        }
         /* ------------------------------
 
 content (after 1600px)
@@ -2777,7 +2786,8 @@ content (after 1600px)
                 font-size: 42px;
             }
             .art-banner .art-banner-overlay .art-banner-photo {
-                width: 360px;
+                width: 456px;
+                bottom: -53px;
             }
         }
         /* ------------------------------
@@ -2795,7 +2805,10 @@ content (after 1400px)
                 font-size: 36px;
             }
             .art-banner .art-banner-overlay .art-banner-photo {
-                width: 320px;
+                right: -55px;
+                width: 397px;
+                right: -82px;
+                bottom: -46px;
             }
         }
         /* ------------------------------
